@@ -1,0 +1,48 @@
+body {
+    background: #333333;
+    background: -webkit-linear-gradient(to right, #dd1818, #333333);
+    background: linear-gradient(to right, #dd1818, #333333);
+}
+h1{
+    font-family: "Bagel Fat One", serif;
+    font-size: 80px;
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+h2{
+    font-family: "Bagel Fat One", serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  button{
+    margin-left: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: #0b0700;
+    color:whitesmoke;
+    font-family: "Bagel Fat One", serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  button:hover{
+    background-color: rgb(111, 35, 100);
+    transition: 2s;
+  }
