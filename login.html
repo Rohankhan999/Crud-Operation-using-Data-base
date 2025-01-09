@@ -16,19 +16,17 @@
       <section>
         <div class="form">
             <h3>Email</h3>
-            <input type="email" placeholder="Enter your Email">
+            <input type="email" placeholder="Enter your Email" id="Email">
             <h3>password</h3>
-            <input type="password" placeholder="Enter your Password">
+            <input type="password" placeholder="Enter your Password" id="Password">
             <p>Did'nt Have An Account <a href="signup.html"><u>Sign up</u></a></p>
             <button id="btn3">Login</button>
         </div>
         
       </section>
     </div>
-    <script>
-         document.getElementById('btn3').addEventListener("click", function() {
-    window.open("main.html", "_self");
-});
-    </script>
-  </body>
+    <script type="module" src="login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    </body>
 </html>
