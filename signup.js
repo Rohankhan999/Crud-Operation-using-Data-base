@@ -16,7 +16,8 @@
       function signup() {
           const email = document.getElementById("Email").value;
           const password = document.getElementById("Password").value;
-          const username = document.getElementById("Username").value;
+          const displayName = document.getElementById("Username").value;
+     
   
           if (!email || !password || !username) {
               Swal.fire({
@@ -27,7 +28,7 @@
               return;
           }
   
-          createUserWithEmailAndPassword(auth, email, password)
+          createUserWithEmailAndPassword(auth, email, password, displayName)
               .then((res) => {
                   console.log("User Data:", res.user);
   
