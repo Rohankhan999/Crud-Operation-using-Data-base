@@ -19,7 +19,7 @@
           const displayName = document.getElementById("Username").value;
      
   
-          if (!email || !password || !username) {
+          if (!email || !password ) {
               Swal.fire({
                   icon: "error",
                   title: "Oops...",
